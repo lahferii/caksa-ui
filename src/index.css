@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+	.nav-menu{
+		@apply w-56 lg:w-auto p-5 lg:p-0 rounded-lg lg:rounded-none absolute lg:static top-20 right-5 flex-col lg:flex-row shadow-lg lg:shadow-none gap-5 lg:items-center bg-white
+	}
+	.btn-primary{
+		@apply px-2 py-1 bg-black tracking-widest text-white hover:bg-zinc-700 duration-300
+	}
+	.btn{
+		@apply px-2 py-1 tracking-widest hover:ring-2 ring-black duration-300
+	}
+}
