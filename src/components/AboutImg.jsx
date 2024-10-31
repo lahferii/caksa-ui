@@ -35,7 +35,7 @@ export const AboutImg = () => {
         </button>
       </div>
 
-      {loading && <Loader message="Loading, Please Wait..."/>}
+      {loading && <Loader message="Loading image, please Wait..."/>}
 
       <img src={images[showImg]} alt={`Gallery image ${showImg + 1}`} onLoad={handleLoad} className={`w-full h-full object-cover object-center saturate-0 hover:saturate-100 duration-500 ${loading ? 'hidden' : 'block'}`}
       />
