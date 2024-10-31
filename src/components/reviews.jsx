@@ -11,27 +11,27 @@ export const Reviews = () => {
 
       <section className="columns-1 sm:columns-2 md:columns-3">
         <Card
-          title="Farhan Kebab"
+          title="Adrian Pramono"
           subtitle="Team Leader"
           description="Mantap"
         />
         <Card
-          title="Reza Kecap"
+          title="Bima Santoso"
           subtitle="Project Manager"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque neque alias quo, rem asperiores consequuntur a soluta autem perspiciatis saepe, laudantium nesciunt earum, repudiandae ex obcaecati accusantium sit eveniet?"
         />
         <Card
-          title="Jajang Batagor"
+          title="Melati Indah"
           subtitle="Mechanic"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque neque alias quo, rem asperiores consequuntur a soluta autem."
         />
         <Card
-          title="Roger Sumatera"
+          title="Sari Nuraini"
           subtitle="Programmer"
           description="Lorem ipsum dolor sit amet, consectetur?"
         />
         <Card
-          title="Raihan Whatsapp"
+          title="Citra Ramadhani"
           subtitle="Electrical"
           description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque neque alias quo, rem asperiores consequuntur a soluta autem perspiciatis saepe, laudantium nesciunt earum, repudiandae ex obcaecati accusantium sit eveniet?"
         />

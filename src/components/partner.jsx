@@ -14,7 +14,7 @@ export const Partner = () => {
     <Wrapper>
       <Heading
         title="Supported By Community"
-        subtitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ea quae dolorem voluptates voluptatem quisquam."
+        subtitle="Our partners contribute in various ways, providing support in knowledge, materials, funding, and more. Together, we strive to make the skies brighter and our UAV technology more sustainable."
       />
 
       <section className="relative overflow-hidden">

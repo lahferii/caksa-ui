@@ -24,15 +24,14 @@ export const AboutImg = () => {
   }
   
   return(
-    <div className="group w-full lg:h-[500px] overflow-hidden mb-5 relative">
-      <div className="absolute w-full h-full z-10 flex justify-between items-center">
-        <div className="">
+    <div className="group w-full h-72 lg:h-[500px] overflow-hidden mb-5 relative">
+        <div className="w-20 h-full bg-gradient-to-r from-zinc-700 to-transparent absolute z-10 top-0 left-0 flex items-center">
           <img onClick={handleNext} src={arrow} alt={arrow} className="w-16 -rotate-90 cursor-pointer"/>
         </div>
-        <div className="">
+        <div className="w-20 h-full bg-gradient-to-l from-zinc-700 to-transparent absolute z-10 top-0 right-0 flex items-center">
           <img onClick={handlePrev} src={arrow} alt={arrow} className="w-16 rotate-90 cursor-pointer"/>
         </div>
-      </div>
+
       <img src={images[showImg]} alt={images[showImg]} className="w-full h-full object-cover object-center saturate-0 group-hover:saturate-100 duration-500"/>
     </div>
   )
